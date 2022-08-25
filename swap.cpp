@@ -50,12 +50,6 @@ auto f_point(uint64_t a) -> double
     double sign = float_sign(a);
 
     double float_val = sign*mant*pow(10,expon);
-    /*std::cout << (float)float_val << "\n";
-    if(float_val > FLT_MAX){
-        float_val = INFINITY;
-    } else if(float_val < FLT_MIN){
-        float_val = -INFINITY;
-    }*/
     return float_val;
 }
 
