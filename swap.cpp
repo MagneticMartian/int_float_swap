@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <cfloat>
 
 static const int MAX_REG = 31;
 static const int MANT_MAX = 22;
